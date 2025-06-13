@@ -1,3 +1,57 @@
-1. Clone the repository:
-2. Install dependencies:        pip install -r requirements.txt
-3. Run the script:
+open command promant/terminal
+
+
+
+1]Install Python
+  If Python is not installed:
+``Download it from: https://www.python.org/downloads/
+``During installation, make sure to check the box that says "Add Python to PATH"
+
+2]  Clone the GitHub Repository:
+    Open Command Prompt or Terminal, and run: ##don't include '{}' they indicate the code lines
+    {
+     git clone https://github.com/Cyberstan-UAV/simple-hand-gesture-recognization.git
+     cd simple-hand-gesture-recognization
+     }
+3]   Set Up Virtual Environment (Recommended):
+    
+# For Windows
+    {
+     python -m venv venv
+     venv\Scripts\activate    
+    }
+    
+# For macOS/Linux:
+    {
+     source venv/bin/activate
+    }
+
+4]  Install Required Python Libraries
+{
+pip install -r requirements.txt
+}
+
+5]   folder:
+     make sure your: Main.py
+                     hand_tracking.py
+                  &  requirements.txt
+      are in same folder 
+
+7. Python File Descriptions
+main.py – This is your main script that:
+           Captures webcam input
+           Detects hand gestures using MediaPipe
+           Maps specific gestures to mouse or volume actions using PyAutoGUI
+
+hand_tracking.py – Custom wrapper class for:
+                   initializing MediaPipe Hand module
+                   Drawing landmarks
+                   Extracting finger positions
+
+
+8]    Run the Project
+      In the project root directory (folder where you have everything), run:
+    {
+    python main.py
+    }
+
