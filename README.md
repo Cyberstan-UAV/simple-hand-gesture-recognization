@@ -64,6 +64,56 @@ Tech Stack
 
 ---
 
+ Requirements
+
+- Python 3.7+
+- Webcam (built-in or external)
+- A reasonably powerful CPU (GPU not mandatory but helps With Better FPS and smoother operation)
+- Windows OS (for PyAutoGUI and screen control functions — Linux/Mac support may need tweaks)
+
+---
+
+ Known Limitations
+
+- Low FPS and lag on older or low-spec systems
+- Not yet optimized with multithreading
+- Basic gestures only — not trained with a custom model
+- Only supports single-hand tracking in this version
+
+---
+
+Future Improvements
+
+- Add multithreading to increase frame processing speed
+- Integrate deep learning for dynamic gesture classification
+- Support multi-hand gestures and left/right hand detection
+- Deploy on edge devices like Raspberry Pi or Jetson Nano
+- Combine with voice control for hybrid HCI system
+
+---
+
+ Author
+
+Piyush Dangare  
+Third-Year B.E. (E&TC) Student | Aspiring Defense & Aerospace Innovator  
+Passionate about embedded systems, AI, and building real-world tech  
+[LinkedIn Profile](www.linkedin.com/in/piyush-dangare-555933358)
+
+---
+
+ License
+
+This project is open-source under the MIT License. See the `LICENSE` file for more details.
+
+---
+
+ Contributions
+
+Pull requests, feedback, and forks are welcome. If you'd like to improve performance or add more gestures, feel free to open an issue or submit a PR.
+
+
+
+
 
 
 
